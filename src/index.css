@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-hud text-electric-grey font-body antialiased;
+  }
+  ::selection {
+    @apply bg-patch-red/30;
+  }
+}
+
+@layer components {
+  /* Glassmorphism HUD card */
+  .glass {
+    @apply bg-white/[0.03] backdrop-blur-md border border-white/[0.06];
+  }
+  /* Sharp-edged gaming HUD button base */
+  .hud-btn {
+    @apply inline-flex items-center justify-center gap-2 font-heading font-semibold uppercase tracking-wide
+           px-5 py-2.5 rounded-sm transition-all duration-200 border;
+  }
+}
+
+/* Thin custom scrollbar to match the HUD vibe */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3a3a;
+}
+
+/* Hide scrollbar for the horizontal quick-filter row */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

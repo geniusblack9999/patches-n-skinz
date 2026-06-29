@@ -1,0 +1,237 @@
+[
+  {
+    "id": "loop-fighter-0629",
+    "type": "patch",
+    "game": "Loop Fighter",
+    "title": "Loop Fighter Single-Player Update — Pacing Gets a Brain Transplant",
+    "timestamp": "2026-06-29T15:00:00Z",
+    "trending_blurb": "June 29 single-player update",
+    "public_content": {
+      "vibe_tldr": "Roguelite pacing gets a brain transplant to reward clean combos while throwing struggling fighters a life preserver.",
+      "the_big_deal": "Loop Fighter is doubling down on its single-player experience by introducing a dynamic, performance-reactive wave director. From now on, cleanly wiping waves and landing massive combos will automatically spike upcoming pressure, while taking repeated hits will briefly ease the pace so you can catch your breath."
+    },
+    "gated_content": {
+      "breakdown": [
+        {
+          "icon": "📈",
+          "label": "Build Momentum Buffed",
+          "text": "Upgrade choices are no longer completely random. Once you start picking a build direction, future upgrade drafts are weighted to heavily favor fighter-specific and flow upgrades that support your synergy."
+        },
+        {
+          "icon": "⚖️",
+          "label": "Dynamic Wave Director",
+          "text": "Clean play, combo streaks, and current screen density now dynamically dictate enemy spawn timings and batch sizes."
+        },
+        {
+          "icon": "🛠️",
+          "label": "Anti-Overcorrection",
+          "text": "The wave director has been refined so it no longer aggressively over-corrects your pacing after a single minor mistake."
+        }
+      ],
+      "meta_implications": "Brainless, purely random build paths are officially dead. Because the game actively supports the build direction you establish early on, you can consistently chase specialized, high-tier synergies instead of just hoping for the best. Be prepared for a much stiffer challenge on high-combo runs as the game actively scales up the heat when you’re playing flawlessly.",
+      "wallet_verdict": { "rating": 0, "summary": "" },
+      "source_label": "Read the Full Loop Fighter June 29 Patch Notes",
+      "source_url": "#"
+    },
+    "author": { "name": "Meta Oracle", "avatar_url": "" }
+  },
+  {
+    "id": "overwatch-shion-hotfix",
+    "type": "patch",
+    "game": "Overwatch 2",
+    "title": "Overwatch Balance Hotfix — The Shion Nerf Hammer Drops",
+    "timestamp": "2026-06-29T12:00:00Z",
+    "trending_blurb": "Shion nerf hotfix live",
+    "public_content": {
+      "vibe_tldr": "Shion gets hit with the nerf hammer while Moira and support mains are absolutely feasting.",
+      "the_big_deal": "Blizzard is putting a swift end to Shion’s reign of terror. The projectile size on Execution has been drastically cut from 0.17 to 0.07, and they’ve tacked on a 0.4-second recovery time. If you want to melt lobby faces with Shion now, you are actually going to have to aim."
+    },
+    "gated_content": {
+      "breakdown": [
+        {
+          "icon": "📉",
+          "label": "Shion Gutted",
+          "text": "Along with the Execution projectile nerf, the cooldown reduction per Onslaught stack has been lowered from 5% to 3%."
+        },
+        {
+          "icon": "📈",
+          "label": "Ana Survived",
+          "text": "Dream Field healing per second has been cranked up from 10% to 15% of Max Life. Sleep tight, flankers."
+        },
+        {
+          "icon": "⚖️",
+          "label": "Juno Rebalanced",
+          "text": "Cooldown reduction on Blink Boosts got cut from 50% to 30%, but her primary fire (Fission Chamber) got a rate-of-fire bump to 22 shots per second."
+        },
+        {
+          "icon": "📈",
+          "label": "Moira Buffed",
+          "text": "Remote Reciprocity duration is up to 5 seconds (from 3s), and Orbsplosion damage and healing percentages both got a sweet 5% bump."
+        }
+      ],
+      "meta_implications": "With Shion’s lethal spam potential severely toned down and healing outputs spiked for Ana and Moira, team fights are going to last significantly longer. Expect dive compositions to struggle a bit more as supports now have the raw healing output to shrug off sloppy flank attempts.",
+      "wallet_verdict": { "rating": 0, "summary": "" },
+      "source_label": "Read the Full Overwatch Patch Notes",
+      "source_url": "#"
+    },
+    "author": { "name": "Meta Oracle", "avatar_url": "" }
+  },
+  {
+    "id": "fortnite-bp-return-0628",
+    "type": "skin",
+    "game": "Fortnite",
+    "title": "Battle Pass Skins Return — The Vault Door Just Opened",
+    "timestamp": "2026-06-28T18:00:00Z",
+    "trending_blurb": "Battle Pass skins return to shop",
+    "public_content": {
+      "vibe_tldr": "Vault door officially kicked open as previously “exclusive” seasonal cosmetics land in the daily shop rotation.",
+      "the_big_deal": "Epic Games is rewriting the rules of cosmetic FOMO. Previously exclusive Battle Pass skins are finally making their highly anticipated debut in the daily Item Shop rotation, giving collectors who missed out on classic seasons a second chance to grab legendary cosmetics."
+    },
+    "gated_content": {
+      "breakdown": [
+        {
+          "icon": "🔓",
+          "label": "Vault Cracked",
+          "text": "High-tier skins previously locked behind legacy Battle Passes are appearing in the daily shop showcase."
+        },
+        {
+          "icon": "🎨",
+          "label": "Locker Freedom",
+          "text": "Complete bundles including original pickaxes, gliders, and wraps are being re-released alongside the skins."
+        },
+        {
+          "icon": "⚖️",
+          "label": "No FOMO Era",
+          "text": "A massive win for newer players who started playing in later chapters and couldn’t access iconic OG cosmetics."
+        }
+      ],
+      "meta_implications": "The end of true OG exclusivity — expect the account-flex value of legacy skins to cool now that iconic cosmetics are no longer locked to the season you played.",
+      "wallet_verdict": {
+        "rating": 6,
+        "summary": "Too Damn High (but worth the flex). Epic is attaching a massive premium to these individual cosmetics. If a legendary skin completely defines your main, grab it immediately — otherwise, wait for the inevitably discounted bundles."
+      },
+      "source_label": "View the Fortnite Item Shop June 28 Showcase",
+      "source_url": "#"
+    },
+    "author": { "name": "Drip Analyst", "avatar_url": "" }
+  },
+  {
+    "id": "valorant-blackspyre",
+    "type": "skin",
+    "game": "Valorant",
+    "title": "Valorant Blackspyre Bundle — Obsidian Drip for Your Highlight Reel",
+    "timestamp": "2026-06-28T20:00:00Z",
+    "trending_blurb": "Blackspyre bundle + Patch 13.00",
+    "public_content": {
+      "vibe_tldr": "Dark, metallic, and aggressively edgy — perfect for your next highlight reel.",
+      "the_big_deal": "Dropping alongside Patch 13.00, the new Summit map, and the Retake 3v3 mode, the Blackspyre Bundle brings premium, custom-VFX skins to some of the game’s most popular weapons, including the Phantom, Ares, Spectre, Sheriff, and Melee."
+    },
+    "gated_content": {
+      "breakdown": [
+        {
+          "icon": "🖤",
+          "label": "Dark Magic Aesthetics",
+          "text": "Features a sleek obsidian metallic body that pulses with glowing purple energy runes."
+        },
+        {
+          "icon": "💥",
+          "label": "Premium VFX & SFX",
+          "text": "Custom inspect animations, unique muzzle flashes, and a highly satisfying dark-magic reload sound effect."
+        },
+        {
+          "icon": "🎬",
+          "label": "The Finisher",
+          "text": "Eliminating the final enemy summons a massive swirling vortex of black energy that consumes the target."
+        }
+      ],
+      "meta_implications": "Cosmetic only — but the custom muzzle flash and reload SFX are loud enough to be a genuine audio tell in clutch rounds. Worth a quick range test before you main it competitively.",
+      "wallet_verdict": {
+        "rating": 8,
+        "summary": "A Solid Flex. If you’ve been waiting for a Phantom skin that feels premium without being overly distracting, this is a top-tier pickup. The custom reload sound effects are incredibly satisfying, making this great value for the bundle price."
+      },
+      "source_label": "View the Blackspyre Bundle Showcase",
+      "source_url": "#"
+    },
+    "author": { "name": "Drip Analyst", "avatar_url": "" }
+  },
+  {
+    "id": "lol-patch-26-13",
+    "type": "patch",
+    "game": "League of Legends",
+    "title": "League Patch 26.13 — Marksmen Eat, Mages Get Tapped",
+    "timestamp": "2026-06-29T16:00:00Z",
+    "trending_blurb": "Patch 26.13 — ADC buff wave",
+    "public_content": {
+      "vibe_tldr": "Riot hands the bot lane a buffet — Aphelios, Draven, and Kai’Sa all get their teeth back — while burst mages quietly choke down a nerf.",
+      "the_big_deal": "Patch 26.13 is a straight-up love letter to ADCs. Aphelios’ gun passives scale harder, Draven’s axes come back faster, and Kai’Sa’s ult shield got cranked — meanwhile Brand, Cassiopeia, and Rumble all lost a chunk of their early bully power."
+    },
+    "gated_content": {
+      "breakdown": [
+        {
+          "icon": "📈",
+          "label": "ADCs Feast",
+          "text": "Aphelios’ bonus-AD scaling is up across every gun, Draven’s E cooldown drops to 16/15/14/13/12s, and Kai’Sa’s R shield jumps from 70/90/110 to a beefy 100/150/200 base."
+        },
+        {
+          "icon": "📉",
+          "label": "Mage Tax",
+          "text": "Brand’s early passive damage and E mana cost both got hit, and Cassiopeia’s health-per-level was shaved from 104 to 98."
+        },
+        {
+          "icon": "🛠️",
+          "label": "Proxy Sion Reined In",
+          "text": "Sion’s Q minimum damage was halved (40-120 → 30-90) and his W mana cost went up — split-push Sion takes a real bite."
+        },
+        {
+          "icon": "⚖️",
+          "label": "Systems Shake-Up",
+          "text": "Last-hit indicators are being trialed in Normal Draft and Swiftplay, and Ranked 5s returns June 26 with Tournament Draft."
+        }
+      ],
+      "meta_implications": "Bot lane is back in the driver’s seat. Expect ADC and enchanter priority to spike in draft while burst-mage mids slide down the pick order — and watch for proxy Sion to fall off the flex-pick radar entirely.",
+      "wallet_verdict": { "rating": 0, "summary": "" },
+      "source_label": "Read the Full League Patch 26.13 Notes",
+      "source_url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-13-notes/"
+    },
+    "author": { "name": "Meta Oracle", "avatar_url": "" }
+  },
+  {
+    "id": "valorant-hi-dro",
+    "type": "skin",
+    "game": "Valorant",
+    "title": "Valorant Hi-DR0 Bundle — Ocean-Core Drip Hits the Shop",
+    "timestamp": "2026-06-29T15:30:00Z",
+    "trending_blurb": "Hi-DR0 underwater skin bundle",
+    "public_content": {
+      "vibe_tldr": "Bubbly, blue, and a full tonal 180 from the edgy Blackspyre era — Hi-DR0 brings cute deep-sea energy to your loadout.",
+      "the_big_deal": "The Hi-DR0 bundle dives into an underwater aesthetic — coral, bubbles, and ocean light — across the Sheriff, Phantom, Ares, Operator, and a baton melee, all for 5,100 VP."
+    },
+    "gated_content": {
+      "breakdown": [
+        {
+          "icon": "🌊",
+          "label": "Deep-Sea Aesthetic",
+          "text": "Weapons float in a deep-sea preview surrounded by coral and bubbles, leaning blue and yellow with sharp red accents."
+        },
+        {
+          "icon": "💧",
+          "label": "The Full Loadout",
+          "text": "Sheriff, Phantom, Ares, and Operator at 1,275 VP each, plus a baton melee at 2,550 VP — or 5,100 VP for the whole set."
+        },
+        {
+          "icon": "🫧",
+          "label": "Tone Check",
+          "text": "A deliberately cute, summery vibe — the opposite of Valorant’s recent dark-and-classy bundles."
+        }
+      ],
+      "meta_implications": "Cosmetic only — but the bright blue-and-yellow finish reads louder than darker skins on some maps. Worth a quick range test before you main it on a sunlit site like Breeze.",
+      "wallet_verdict": {
+        "rating": 6,
+        "summary": "Solid theme, Deluxe tier. At 5,100 VP it undercuts Premium sets, but Deluxe means no flashy finisher or upgrade variants — buy it for the ocean vibe, not the flex."
+      },
+      "source_label": "View the Hi-DR0 Bundle Showcase",
+      "source_url": "https://esports.gg/news/valorant/valorant-hi-dro-bundle/"
+    },
+    "author": { "name": "Drip Analyst", "avatar_url": "" }
+  }
+]

@@ -1,0 +1,10 @@
+# Netlify build config for Patches N Skinz (Vite + React)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback — serve index.html for any route
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
