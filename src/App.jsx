@@ -323,7 +323,8 @@ function ArticleCard({ article, index }) {
                 Unlock the full breakdown
               </p>
               <p className="mb-3 mt-0.5 text-xs text-white/40">
-                Meta implications, the Wallet Verdict & deep-dive analysis.
+                Meta implications, the Wallet Verdict & deep-dive analysis —{' '}
+                <span className="text-white/70">free for Operatives.</span>
               </p>
               <SignupBox compact cta="Unlock" accent={isPatch ? 'red' : 'green'} />
             </div>
