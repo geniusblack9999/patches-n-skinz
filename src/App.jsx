@@ -69,28 +69,53 @@ function Header({ query, setQuery }) {
 }
 
 /* ----------------------------------- Hero ---------------------------------- */
+const BEEHIIV_PUB_ID = 'pub_56ad93a9-4ab4-4692-875e-8db8f6e6010e'
+
 function SignupBox({ cta = 'Join the Alpha', compact = false, accent = 'red' }) {
   const [email, setEmail] = useState('')
   const [done, setDone] = useState(false)
+  const [loading, setLoading] = useState(false)
   const ring = accent === 'green' ? 'focus:border-skin-green/60' : 'focus:border-patch-red/60'
   const btn =
     accent === 'green'
       ? 'border-skin-green bg-skin-green/10 text-skin-green hover:bg-skin-green hover:text-hud hover:shadow-glow-green'
       : 'border-patch-red bg-patch-red/10 text-patch-red hover:bg-patch-red hover:text-white hover:shadow-glow-red'
 
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    if (!email.includes('@')) return
+    setLoading(true)
+    // Fire subscription to Beehiiv's public subscribe endpoint (no API key needed)
+    try {
+      await fetch(`https://app.beehiiv.com/subscribe`, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams({ email, pub_id: BEEHIIV_PUB_ID }).toString(),
+      })
+    } catch {
+      // Silently continue — open confirm page as fallback
+    }
+    // Open Beehiiv's confirm page in background so user stays on PNS
+    window.open(
+      `https://app.beehiiv.com/subscribe/${BEEHIIV_PUB_ID}?email=${encodeURIComponent(email)}`,
+      '_blank',
+      'noopener,noreferrer'
+    )
+    setLoading(false)
+    setDone(true)
+  }
+
   if (done) {
     return (
       <div className="glass flex items-center justify-center gap-2 rounded-sm px-4 py-3 text-sm text-skin-green">
-        <Zap className="h-4 w-4" /> You’re in. Check your inbox, Operative.
+        <Zap className="h-4 w-4" /> You're in. Check your inbox, Operative.
       </div>
     )
   }
   return (
     <form
-      onSubmit={(e) => {
-        e.preventDefault()
-        if (email.includes('@')) setDone(true)
-      }}
+      onSubmit={handleSubmit}
       className={compact ? 'flex flex-col gap-2' : 'flex flex-col gap-2 sm:flex-row'}
     >
       <input
@@ -101,8 +126,8 @@ function SignupBox({ cta = 'Join the Alpha', compact = false, accent = 'red' }) 
         placeholder="operative@email.com"
         className={`glass w-full rounded-sm px-4 py-3 text-sm text-white placeholder-white/30 outline-none transition ${ring}`}
       />
-      <button type="submit" className={`hud-btn whitespace-nowrap ${btn}`}>
-        {cta} <ArrowRight className="h-4 w-4" />
+      <button type="submit" disabled={loading} className={`hud-btn whitespace-nowrap ${btn}`}>
+        {loading ? '...' : cta} <ArrowRight className="h-4 w-4" />
       </button>
     </form>
   )
