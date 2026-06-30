@@ -69,8 +69,7 @@ function Header({ query, setQuery }) {
 }
 
 /* ----------------------------------- Hero ---------------------------------- */
-const BEEHIIV_PUB_ID = 'pub_56ad93a9-4ab4-4692-875e-8db8f6e6010e'
-const BEEHIIV_API_KEY = 'eFK9svye6Vb2CAh1Uq45ktNbiEkPf6xmwUyBof904KegFGMu10Up1ZwcoIVGtKqB'
+const SUBSCRIBE_URL = 'https://pns-subscribe.phatheads.workers.dev'
 
 function SignupBox({ cta = 'Join the Alpha', compact = false, accent = 'red' }) {
   const [email, setEmail] = useState('')
@@ -87,19 +86,10 @@ function SignupBox({ cta = 'Join the Alpha', compact = false, accent = 'red' }) 
     if (!email.includes('@')) return
     setLoading(true)
     try {
-      await fetch(`https://api.beehiiv.com/v2/publications/${BEEHIIV_PUB_ID}/subscriptions`, {
+      await fetch(SUBSCRIBE_URL, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Authorization: `Bearer ${BEEHIIV_API_KEY}`,
-        },
-        body: JSON.stringify({
-          email,
-          reactivate_existing: false,
-          send_welcome_email: true,
-          utm_source: 'pns-website',
-          utm_medium: 'organic',
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email }),
       })
     } catch {
       // best-effort — show success regardless
