@@ -85,23 +85,17 @@ function SignupBox({ cta = 'Join the Alpha', compact = false, accent = 'red' }) 
     e.preventDefault()
     if (!email.includes('@')) return
     setLoading(true)
-    // Fire subscription to Beehiiv's public subscribe endpoint (no API key needed)
+    // Fire subscription to Beehiiv — no-cors so CORS headers don't block us
     try {
-      await fetch(`https://app.beehiiv.com/subscribe`, {
+      await fetch('https://app.beehiiv.com/subscribe', {
         method: 'POST',
         mode: 'no-cors',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams({ email, pub_id: BEEHIIV_PUB_ID }).toString(),
       })
     } catch {
-      // Silently continue — open confirm page as fallback
+      // request fired regardless — no-cors opaque response is expected
     }
-    // Open Beehiiv's confirm page in background so user stays on PNS
-    window.open(
-      `https://app.beehiiv.com/subscribe/${BEEHIIV_PUB_ID}?email=${encodeURIComponent(email)}`,
-      '_blank',
-      'noopener,noreferrer'
-    )
     setLoading(false)
     setDone(true)
   }
