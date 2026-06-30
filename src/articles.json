@@ -1,5 +1,57 @@
 [
   {
+    "id": "hots-ptr-0629",
+    "type": "patch",
+    "game": "Heroes of the Storm",
+    "title": "HotS PTR — Ragnaros Goes Nuclear, Genji Gets His Wings Back",
+    "timestamp": "2026-06-30T10:00:00Z",
+    "trending_blurb": "Ragnaros + Genji PTR buffs dropping",
+    "public_content": {
+      "vibe_tldr": "Ragnaros' Meteor Swing nearly doubles in damage and Genji gets a full speed-and-strike buff package — HotS PTR just set the meta on fire.",
+      "the_big_deal": "The Heroes of the Storm June 29 PTR patch is a love letter to damage dealers. Ragnaros is getting terrifying buffs — Meteor Swing jumps from 161 to 250 damage, Molten Core's health leaps to 5,000 — while Genji gets faster, hits harder, and resets quicker. Haunted Mines is also finally joining Ranked, shaking up the competitive map pool."
+    },
+    "gated_content": {
+      "breakdown": [
+        { "icon": "📈", "label": "Ragnaros Ascends", "text": "Blast Wave climbs from 104 to 120, Meteor Swing leaps from 161 to 250, Meteor Shower from 151 to 200 — and Molten Core spawns with 5,000 health. He's not a lane bully; he's a raid boss." },
+        { "icon": "📈", "label": "Genji Speed Run", "text": "Swift as the Wind speed jumps 30% to 40%, Strike at the Heart gains 8 damage, and both Flow Like Water and Perfect Defense get faster cooldown reductions." },
+        { "icon": "🛠️", "label": "Abathur Rework", "text": "Locust health drops 350 to 225 but they now self-heal 20% of damage dealt — and new Level 4 talent 'Slapathur' lets basic attacks stun non-Heroes with 500% bonus damage." },
+        { "icon": "⚖️", "label": "Haunted Mines Goes Ranked", "text": "The macro-heavy fan favorite enters Storm League, alongside a party restriction lift letting ranked players queue with unplaced friends." }
+      ],
+      "meta_implications": "Ragnaros vaults into S-tier consideration on objective maps the moment this PTR goes live — expect heavy ban pressure in Storm League. Genji's speed-and-cooldown buffs make him a genuine dive threat again; supports should start drafting counters now.",
+      "wallet_verdict": { "rating": 0, "summary": "" },
+      "source_label": "Read the Full HotS PTR Patch Notes",
+      "source_url": "https://news.blizzard.com/en-us/article/24287550/heroes-of-the-storm-ptr-patch-notes-june-29-2026"
+    },
+    "author": { "name": "Meta Oracle", "avatar_url": "" }
+  },
+  {
+    "id": "fortnite-mongraal",
+    "type": "skin",
+    "game": "Fortnite",
+    "title": "Mongraal Icon Series — Pro Player Drip Hits the Shop",
+    "timestamp": "2026-06-30T09:00:00Z",
+    "trending_blurb": "Mongraal Icon Series live now",
+    "public_content": {
+      "vibe_tldr": "Fortnite's youngest Icon Series star just dropped — two skins, two pickaxes, and a vibe that screams pro player without screaming try-hard. Live until July 7.",
+      "the_big_deal": "Kyle 'Mongraal' Jackson joins the Fortnite Icon Series with a bundle that punches above its weight. For 2,700 V-Bucks you get two full skin variants, two harvesting tools, a back bling, emote, and wrap — one of the better value-to-cosmetic ratios an Icon Series drop has seen in a while."
+    },
+    "gated_content": {
+      "breakdown": [
+        { "icon": "🎨", "label": "Two-Skin Bundle", "text": "Base Mongraal skin (1,500 VP solo) plus Elite Mongraal with The Counter back bling — buying together in the bundle saves you meaningful VP over buying separately." },
+        { "icon": "🎨", "label": "Lucky Clover Set", "text": "Lucky Clover pickaxe and Clover Crush wrap give the bundle a distinct green-and-gold identity separate from the main outfit's clean competitive look." },
+        { "icon": "🎬", "label": "Shing Shing Shing Emote", "text": "Mongraal's signature celebration emote is included and will absolutely be spammed in elimination feeds through July 7." }
+      ],
+      "meta_implications": "Icon Series exits are real — this leaves the shop July 7 at 8 PM ET. At 2,700 V-Bucks for the full set it undercuts most premium bundles in raw cosmetic count. Don't sleep on this one.",
+      "wallet_verdict": {
+        "rating": 7,
+        "summary": "Solid Value for a Pro Collab. Two skin variants plus full accessories for 2,700 V-Bucks beats most single-skin premium bundles in raw count. The Elite variant is clean enough to main daily. Buy if you follow the scene; skip if esports collabs aren't your thing."
+      },
+      "source_label": "View the Mongraal Bundle Details",
+      "source_url": "https://www.newsweek.com/entertainment/video-games/fortnite-immortalizes-mongraal-12126584"
+    },
+    "author": { "name": "Drip Analyst", "avatar_url": "" }
+  },
+  {
     "id": "loop-fighter-0629",
     "type": "patch",
     "game": "Loop Fighter",
