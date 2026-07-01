@@ -1,8 +1,7 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   Search,
-  Users,
   Zap,
   Lock,
   Flame,
@@ -16,29 +15,6 @@ import {
 import { ARTICLES, GAMES, TRENDING } from './data'
 
 /* ---------------------------------- Header --------------------------------- */
-function SubscriberCounter() {
-  const [count, setCount] = useState(48217)
-  useEffect(() => {
-    const id = setInterval(() => {
-      setCount((c) => c + Math.floor(Math.random() * 3))
-    }, 2200)
-    return () => clearInterval(id)
-  }, [])
-  return (
-    <div className="glass hidden items-center gap-2 rounded-sm px-3 py-1.5 sm:flex">
-      <span className="relative flex h-2 w-2">
-        <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-skin-green opacity-75" />
-        <span className="relative inline-flex h-2 w-2 rounded-full bg-skin-green" />
-      </span>
-      <Users className="h-4 w-4 text-skin-green" />
-      <span className="font-heading text-sm font-semibold tabular-nums text-white">
-        {count.toLocaleString()}
-      </span>
-      <span className="text-xs uppercase tracking-wider text-white/40">Active Operatives</span>
-    </div>
-  )
-}
-
 function Header({ query, setQuery }) {
   return (
     <header className="sticky top-0 z-40 border-b border-white/[0.06] bg-hud/80 backdrop-blur-xl">
@@ -61,8 +37,6 @@ function Header({ query, setQuery }) {
             ⌘K
           </kbd>
         </div>
-
-        <SubscriberCounter />
       </div>
     </header>
   )
