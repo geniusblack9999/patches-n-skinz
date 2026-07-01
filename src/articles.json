@@ -1,5 +1,57 @@
 [
   {
+    "id": "poe2-0-5-3",
+    "type": "patch",
+    "game": "Path of Exile 2",
+    "title": "PoE2 Patch 0.5.3 — Delirium Gets Merciful, Expedition Gets Meaner",
+    "timestamp": "2026-07-01T11:00:00Z",
+    "trending_blurb": "0.5.3 — Delirium nerf, Breach buffs",
+    "public_content": {
+      "vibe_tldr": "GGG just halved early Delirium difficulty while cranking Expedition's monster mods and Breach pack density — the sanest league buff-and-nerf combo in a while.",
+      "the_big_deal": "Patch 0.5.3 rebalances four league mechanics at once. Delirium's baseline difficulty is halved for early-game Simulacrums, Breach gets denser packs and new Ailith skills, Abyss guarantees Desecrated Currency from its final Trove, and Expedition trades fewer explosives for meaner Runic Modifiers on monsters."
+    },
+    "gated_content": {
+      "breakdown": [
+        { "icon": "📉", "label": "Delirium Mercy Patch", "text": "Baseline Simulacrum difficulty is halved early on, though it still scales from 100% to 200% Delirious as you push deeper — the early wall is gone, the late grind isn't." },
+        { "icon": "📈", "label": "Breach Density Up", "text": "Breach Stronghold maps increased in number, magic monster packs now add 2 packs instead of 1, and three new Ailith skills (Dreamer's Sight, Otherworldly Nemesis, Xesht's Fervour) enter the pool." },
+        { "icon": "⚖️", "label": "Expedition Trade-Off", "text": "Explosives per encounter drop from 20 to 15, but Runic Modifiers on monsters are doubled — in some cases significantly more. Less clicking, more danger." },
+        { "icon": "🛠️", "label": "Abyss Guaranteed Loot", "text": "The Kulemak boss now has a guaranteed Desecrated Currency drop, and the Final Abyssal Trove always contains Desecrated Currency — no more whiffing the chase reward." }
+      ],
+      "meta_implications": "Delirium becomes far more approachable for early-league farming, which should push more of the player base into Simulacrums instead of avoiding them. Expedition's explosive-to-danger ratio shift means efficient detonation routing matters less than surviving what you dig up — expect meta builds to lean defensive for Expedition farming specifically.",
+      "wallet_verdict": { "rating": 0, "summary": "" },
+      "source_label": "Read the Full PoE2 0.5.3 Patch Notes",
+      "source_url": "https://maxroll.gg/poe2/news/path-of-exile-2-0-5-3-patch-preview"
+    },
+    "author": { "name": "Meta Oracle", "avatar_url": "" }
+  },
+  {
+    "id": "mlbb-belerick-smouldering-fortress",
+    "type": "skin",
+    "game": "Mobile Legends: Bang Bang",
+    "title": "Belerick Smouldering Fortress — Starlight Drip Goes Molten",
+    "timestamp": "2026-07-01T10:00:00Z",
+    "trending_blurb": "Belerick's first-ever Starlight skin",
+    "public_content": {
+      "vibe_tldr": "Belerick finally gets his first Starlight skin, and it's a full molten-fortress rework of the tankiest hero in the roster — live now for July's pass.",
+      "the_big_deal": "MLBB's July Starlight Pass headliner is Belerick's Smouldering Fortress — his first-ever Starlight-tier skin. The base Starlight Pass runs 300 Diamonds, Premium is 750, and there's a bonus 100-Diamond painted variant for anyone who grabs the main pass first."
+    },
+    "gated_content": {
+      "breakdown": [
+        { "icon": "🎨", "label": "First Starlight Ever", "text": "Belerick has never had a Starlight-tier skin before — this is a genuine milestone drop for one of MLBB's most-played tank mains." },
+        { "icon": "🔥", "label": "Molten Fortress Theme", "text": "Full model rework leaning into a smouldering, fortress-armor aesthetic — a clear tier up from his existing skin pool visually." },
+        { "icon": "💎", "label": "Bonus Painted Variant Gate", "text": "The 100-Diamond bonus variant only unlocks after you've already bought the base Starlight Pass — it's an upsell, not a standalone purchase." }
+      ],
+      "meta_implications": "Cosmetic only, no stat changes — but expect Belerick pick rates to tick up in casual queue purely off skin hype, same pattern seen with past first-time Starlight drops.",
+      "wallet_verdict": {
+        "rating": 7,
+        "summary": "Worth It for Belerick Mains. 300 Diamonds for a hero's first-ever Starlight skin is a fair price, and the molten-fortress rework is a real visual upgrade. Skip the 750 Premium tier unless you're chasing every reward track — the skin itself is the draw, not the pass extras."
+      },
+      "source_label": "View the July Starlight Pass Details",
+      "source_url": "https://gamingonphone.com/news/mobile-legends-bang-bang-mlbb-july-2026-belericks-smouldering-fortress-starlight-pass-details/"
+    },
+    "author": { "name": "Drip Analyst", "avatar_url": "" }
+  },
+  {
     "id": "hots-ptr-0629",
     "type": "patch",
     "game": "Heroes of the Storm",
